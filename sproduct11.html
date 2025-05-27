@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starlight shop</title>
+    <link rel="stylesheet" href="css/homepage.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="homepage.html"><img src="img/logo-text.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a href="#" id="close">
+                    <li class="bx bx-times"></li>
+                </a>
+                <li>
+                    <a href="cart.html">
+                        <i id="shop" class="fa fa-shopping-bag"></i>
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html" style="text-decoration: none; color: black;">
+                <i class='bx bx-shopping-bag'></i>
+            </a>
+
+            <i id="bar" class='bx bx-menu'></i>
+
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/productss/Pattern Apron.png" width="100%" id="MainImg" alt="">
+
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Home/ Women's Pattern Apron</h6>
+            <h4>Starlight's Fashion</h4>
+            <h2>1.200,00 TL</h2>
+            <select id="sizeSelect">
+                <option value="">Select Size</option>
+                <option value="XL">XL</option>
+                <option value="M">M</option>
+                <option value="S">Small</option>
+                <option value="L">Large</option>
+            </select>
+            <input id="qtyInput" type="number" value="1" min="1">
+            <button class="normal" onclick="addToCart()">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>
+                Stay protected in the lab with this Women's patterned lab apron. Designed for durability and comfort, it
+                features high-quality, easy-to-clean fabric, adjustable straps, and a professional fit. The subtle
+                printed design adds a modern touch while maintaining functionality — ideal for lab work, experiments, or
+                educational settings.
+            </span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sproduct4.html'">
+                <img class="img1" src="img/productss/hz1.png" alt="">
+                <div class="des">
+                    <h5>Half Zipper</h5>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <h4>1.000,00 TL</h4>
+                    </div>
+                    <a href="#">
+                        <i id="cart" class="fa fa-shopping-bag"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct5.html'">
+                <img class="img1" src="img/productss/ts1.png" alt="">
+                <div class="des">
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <h4>420,00 TL</h4>
+                    </div>
+                    <a href="#">
+                        <i id="cart" class="fa fa-shopping-bag"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct6.html'">
+                <img class="img1" src="img/productss/tss1.png" alt="">
+                <div class="des">
+                    <h5>T-shirt</h5>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <h4>420,00 TL </h4>
+                    </div>
+                    <a href="#">
+                        <i id="cart" class="fa fa-shopping-bag"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct7.html'">
+                <img class="img1" src="img/productss/sm1.png" alt="">
+                <div class="des">
+                    <h5>Sweatshirt</h5>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <h4>750 TL</h4>
+                    </div>
+                    <a href="#">
+                        <i id="cart" class="fa fa-shopping-bag"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo-no-background.png" alt="">
+            <h4>Contact</h4>
+            <p>
+                <strong>Address: </strong> Fevzi Çakmak Mh. Osmancık Sokağı No:14 34788 Bahçelievler / İstanbul /
+                Türkiye
+            </p>
+
+            <p>
+                <strong>Phone: </strong> +90 531 229 43 89
+            </p>
+
+            <p>
+                <strong>Hours: </strong> 08:30 - 18:30 Mon - Fri
+            </p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class=" x social fa-brands fa-x-twitter"></i>
+                    <i class='bx bxl-linkedin-square'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col pay">
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p> 2025, Talal & Ameer - Starlight Shop</p>
+        </div>
+
+    </footer>
+
+    <script>
+        const mainImg = document.getElementById('MainImg');
+        const smallImgs = document.getElementsByClassName('small-img');
+
+        for (let i = 0; i < smallImgs.length; i++) {
+            smallImgs[i].onclick = function () {
+                mainImg.src = smallImgs[i].src;
+            }
+        }
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

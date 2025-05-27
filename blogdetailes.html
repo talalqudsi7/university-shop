@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>How to Choose the Right Outfit | Starlight Shop Blog</title>
+  <link rel="icon" type="image/png" href="img/logo-no-background.png">
+  <link rel="stylesheet" href="css/homepage.css">
+  <link rel="icon" type="image/png" href="img/logo-no-background.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary: #0e1e25;
+      --accent: #1e90ff;
+      --gray: #6b7280;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter", sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: var(--primary);
+      line-height: 1.6;
+    }
+
+
+    /* ---------- Main ---------- */
+    main {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 7%;
+    }
+
+    .heroo {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .heroo img {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .meta {
+      color: var(--gray);
+      font-size: .7rem;
+      margin-top: 5px;
+    }
+
+    article h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+
+    article h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 30px 0 15px;
+    }
+
+    article p {
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    article ul {
+      margin: 0 0 20px 1.2rem;
+    }
+
+    article ul li {
+      margin-bottom: 10px;
+    }
+
+    blockquote {
+      border-left: 4px solid var(--accent);
+      padding: 10px 20px;
+      margin: 20px 0;
+      font-style: italic;
+      background: #f9f9ff;
+    }
+
+    .highlight {
+      background: var(--accent);
+      color: #fff;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    /* ---------- Buttons & Links ---------- */
+    .btn-back {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 24px;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .btn-back:hover {
+      background: var(--accent);
+    }
+
+    @media (min-width:768px) {
+      .heroo {
+        flex-direction: row;
+        gap: 40px;
+      }
+
+      .heroo img {
+        width: 45%;
+      }
+
+      .heroo .intro {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== Header ===== -->
+  <section id="header">
+    <a href="homepage.html"><img src="img/logo-text.png" class="logo" alt=""></a>
+
+    <div>
+      <ul id="navbar">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a class="active" href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Starlight University</a></li>
+        <li id="lg-bag"><a href="cart.html"> <i class="bx bx-shopping-bag"></i></a></li>
+        <a href="#" id="close"><i class="fa fa-close"></i></a>
+      </ul>
+    </div>
+
+    <div id="mobile">
+      <a href="cart.html" style="text-decoration: none; color: black;">
+        <i class='bx bx-shopping-bag'></i>
+      </a>
+
+      <i id="bar" class='bx bx-menu'></i>
+
+    </div>
+  </section>
+
+  <!-- ===== Main Content ===== -->
+  <main>
+
+    <!-- ---------- HERO ---------- -->
+    <section class="heroo">
+      <!-- Blog image -->
+      <img src="img/blog/blog1.jpg" alt="Classic Fit black t-shirt hanging on a hanger">
+
+      <!-- Intro -->
+      <div class="intro">
+        <span class="meta">Published on 13 Jan 2025 · Fashion Tips</span>
+        <h2>How to Choose the Right Outfit for Your University Day</h2>
+        <p>Long lectures, club meetings, coffee runs — your schedule is packed.
+          The last thing you need is an outfit that slows you down.
+          Let’s break down three simple rules that will keep you comfortable
+          and confident all day on campus.</p>
+      </div>
+    </section>
+
+    <!-- ---------- Full Article ---------- -->
+    <article>
+
+      <h2>1. Comfort Comes First</h2>
+      <p>University days can easily stretch from early-morning labs to late-night study sessions.
+        Choose breathable fabrics like <span class="highlight">100% cotton</span> t-shirts and joggers
+        with elastic waistbands. They let you move freely, whether you’re racing between buildings
+        or relaxing on the lawn.</p>
+
+      <h2>2. Keep It Simple, Stay Stylish</h2>
+      <p>Neutral tones — black, white, grey — are lifesavers. They pair with anything in your wardrobe,
+        so you spend less time deciding what to wear. Our <strong>Classic Fit T-Shirt</strong> in black is a prime
+        example:
+        sleek, minimal, effortlessly cool.</p>
+
+      <h2>3. Be Weather-Ready</h2>
+      <p>Campuses are notorious for unpredictable climates (and air-conditioned auditoriums!).
+        Layering is key. Slip a lightweight hoodie or denim jacket into your tote;
+        you’ll thank yourself when the temperature drops.</p>
+
+      <blockquote>“Fashion is about comfort and feeling good in what you wear.” — Student Council President</blockquote>
+
+      <p><strong>Student Pick:</strong> Grab the Classic Fit black t-shirt <a href="sproduct5.html">here</a> — it’s the
+        top-selling piece this month.</p>
+
+      <p>Ready to level up your campus wardrobe? Explore more student-approved essentials in our Shop.</p>
+
+      <!-- Back button -->
+      <a href="blog.html" class="btn-back">&larr; Back to Blog</a>
+    </article>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="img/logo-no-background.png" alt="">
+      <h4>Contact</h4>
+      <p>
+        <strong>Address: </strong> Fevzi Çakmak Mh. Osmancık Sokağı No:14 34788 Bahçelievler / İstanbul / Türkiye
+      </p>
+
+      <p>
+        <strong>Phone: </strong> +90 531 229 43 89
+      </p>
+
+      <p>
+        <strong>Hours: </strong> 08:30 - 18:30 Mon - Fri
+      </p>
+
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class='bx bxl-facebook-circle'></i>
+          <i class='bx bxl-instagram'></i>
+          <i class=" x social fa-brands fa-x-twitter"></i>
+          <i class='bx bxl-linkedin-square'></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+
+    <div class="col pay">
+      <p>Secured Payment Gateways</p>
+      <img src="img/pay.png" alt="">
+    </div>
+
+    <div class="copyright">
+      <p> 2025, Talal & Ameer - Starlight Shop</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
